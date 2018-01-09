@@ -1,0 +1,55 @@
+/* 
+    Created on : 02/12/2017, 18:32:32
+    Author     : cristiianefaria
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
+
+body{
+    text-align: center;
+    background-color: #0d3b66;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fbfbfb' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+a{
+    text-decoration: none;
+}
+h1,
+h3,
+h5,
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+h1{
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+h3{
+    font-weight: 400;
+    font-size: 1.8em;
+}
+h5{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+i{
+    font-family: 'Montserrat', sans-serif;
+    color: #cae2f9;
+}
+i:hover{
+    color: #369bf9;
+}
+
+.redes-sociais a{
+    padding: 15px;
+}
